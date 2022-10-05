@@ -21,7 +21,7 @@ function App() {
        <Switch>
         <Route exact path='/' component={Semester} />
         <Route path='/schedule' component={SchedList} />
-        <Route path='/addStudent' component={AddStudent} />
+        <Route path='/student' component={AddStudent}/>
        </Switch>
       </BrowserRouter>
     </div>
